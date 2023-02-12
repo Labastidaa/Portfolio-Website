@@ -8,6 +8,15 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors:{
+        custGreen: '#00B412',
+        custLightGreen: '#D9FEA0',
+        custDarkGreen: '#0A1E22',
+        custPurple: '#250236',
+        custDarkGray: '#212121',
+        
+
+      },
       fontFamily:{
         'Inter': ['Inter', 'sans-serif']
       }

@@ -5,7 +5,7 @@ const Navbar = () => {
     return(
         <div>
             <div className='bg-black text-white flex flex-col items-center justify-center'>
-                <h1 className='font-bold text-[50px] pt-[40px]'>Technologies</h1>
+                <h1 className='font-bold text-[3.125rem] pt-[40px]'>Technologies</h1>
                 <p className='font-bold text-[16px] px-10 py-10 text-center'>I used a variety of technologies to build this projects, like HTML, CSS, 
 Focusing on using best practices to maintain clean code and more </p>
 
