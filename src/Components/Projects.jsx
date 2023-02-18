@@ -1,10 +1,11 @@
 import React from 'react'
 
+
 const Projects = () => {
     return (  
         <div className='bg-black w-auto h-1000px' >
             <div className=' flex space-y-[14px] flex-col items-center justify-center'>
-                <p className=' text-white text-bold font-Inter font-bold text-[50px]'>Projects</p>
+                <p className=' text-white text-bold font-Inter font-bold text-[50px] pb-10'>Projects</p>
                 
                 <div className='flex items-center justify-center bg-white w-[94.9333333333%] h-[380px] rounded-[50px]'>
                     <div className='grid grid-cols-3 grid-rows-3 w-[77.52809%] h-[300px]'>
