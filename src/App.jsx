@@ -10,11 +10,11 @@ function App() {
 
 
   return (
-    <div className="App w-[100%] bg-black">
-      <Hero/>
-      <Navbar />
+    <div className='App bg-white flex flex-col justify-center items-center'>
+      <Hero />
       <Projects />
-      <Stacks/>
+      <Stacks />
+      <Navbar />
     </div>
   )
 }
