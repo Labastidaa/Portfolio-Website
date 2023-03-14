@@ -23,15 +23,15 @@ const DesktopNav = (props) => {
             {/* onscroll event to make the nav bar darker*/}
             
             <li className='md:flex items-center justify-center rounded-[50px] h-[89px]'>
-                <Link to='home' smooth={true} offset={0} duration={800} className={` hover:text-black  ${isScrolled ? 'text-[#B1B1B1] hover:text-white' : ''} `} >Home</Link>
+                <Link to='home' smooth={true} offset={0} duration={800} className={`hover:text-black  ${isScrolled ? 'text-[#B1B1B1] hover:text-white' : ''} `} >Home</Link>
             </li> 
 
             <li className='md:flex items-center justify-center rounded-[50px] h-[89px]'>
-                <Link to='projects' smooth={true} offset={-100} duration={800} className={` 'hover:text-black ' ${isScrolled ? 'text-[#B1B1B1] hover:text-white' : ''} `}>Projects</Link>
+                <Link to='projects' smooth={true} offset={-100} duration={800} className={` hover:text-black  ${isScrolled ? 'text-[#B1B1B1] hover:text-white' : ''} `}>Projects</Link>
             </li>
 
             <li className='md:flex items-center justify-center rounded-[50px] h-[89px]' >
-                <Link to='stacks' smooth={true} offset={0} duration={800} className={` 'hover:text-black' ${isScrolled ? 'text-[#B1B1B1] hover:text-white' : ''} `}>Tech</Link>
+                <Link to='stacks' smooth={true} offset={0} duration={800} className={`hover:text-black ${isScrolled ? 'text-[#B1B1B1] hover:text-white' : ''} `}>Tech</Link>
             </li>
 
             <button className='md:flex items-center justify-center rounded-[50px] h-[40px] w-[100px] round-[50%] bg-black '>
